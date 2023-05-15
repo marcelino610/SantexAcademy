@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+#header {
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    background-color: white;
+}
+#header p {
+    margin-right: 40px;
+}
+#header-right {
+    display: flex; 
+    align-items: center;
+}
+#header-right p:hover {
+    color: #6b53f0;
+    cursor: pointer;
+}
+.redondo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+#introduction {
+    padding: 48px;
+    background-color: white;
+}
+#introduction-text h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+#introduction-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.sumate {
+    margin-left: 14px;
+    border-color: #6b53f0;
+    color: #6b53f0;
+}
+.sumate:hover {
+    background-color: #6b53f0;
+    color: white;
+    cursor: pointer;
+}
+.btnblck:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#impacto {
+    background-color: #201b24;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 30px;
+}
+#impacto-i {
+    width: 30%;
+    text-align: left;
+    margin-left: 150px;
+}
+#impacto-d {
+    width: 30%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 150px;
+}
+#impacto-d h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+#impacto-d p{
+    font-size: 14px;
+    color: #8c939c;
+    margin-top: 0;
+}
+#impacto-d span {
+    font-size: 30px;
+    font-weight: 400;
+    color: #6b53f0;
+}
+#vacio {
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#actividad {
+
+}
+#equipo {
+
+}
+#alianzas {
+
+}

@@ -4,53 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technology With Purpose</title>
+
 </head>
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
+    <div id="header">
         <div id="header-left">
             <img src="logo.svg">
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
+        <div id="header-right">
             <p>Nosotros</p>
             <p>Programas</p>
             <p>Capaciontaciones</p>
             <p>Alianzas</p>
             <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+            <button class="redondo btnblck">Sumate +</button>
         </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+    <div id="introduction">
         <div id="introduction-text">
             <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+        <div id="introduction-actions">
+            <button class="redondo btnblck">Contactanos -></button>
+            <button class="redondo sumate">Sumate +</button>
         </div>
     </div>
+    <div id="impacto">
+        <div id="impacto-i">
+            <h1>. Impacto</h1>
+            <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+        </div>
+        <div id="impacto-d">
+            <div>
+                <h1>58</h1>
+                <p>Localidades</p>
+            </div>
+            <div>
+                <h1><span>+</span>50</h1>
+                <p>Mentores</p>
+            </div>
+            <div>
+                <h1>301</h1>
+                <p>Participantes</p>
+            </div>
+        </div>
+    </div>
+    <div id="vacio"></div>
+    <div id="actividad"></div>
+    <div id="equipo"></div>
+    <div id="alianzas"></div>
+    <div id="footer"></div>
 </body>
 </html>
