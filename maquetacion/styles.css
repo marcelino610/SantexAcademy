@@ -55,7 +55,7 @@ body {
     color: white;
     cursor: pointer;
 }
-.btnblck:hover {
+.redondo:hover {
     background-color: black;
     color: white;
     cursor: pointer;
@@ -107,11 +107,99 @@ body {
     height: 100vh;
 }
 #actividad {
-
+    padding: 80px 3%;
+}
+#actividad p{
+    text-align: justify;
+    font-size: 14px;
+}
+.titulo-est {
+    text-align: left;
+    padding-bottom: 20px;
+}
+.prog-cap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.act-img {
+    width: 50%;
+}
+.act-img img {
+    border-radius: 0 40px 40px 40px;
+}
+.act-info {
+    width: 50%;
+}
+.act-info img {
+    height: 40px;
+}
+.actividad-est {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.act-img-d {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+.act-img-d img {
+    border-radius: 40px 40px 0 40px;
 }
 #equipo {
-
+    background-color: #f4f4f5;
 }
+#galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 80px 3%;
+    /* justify-content: space-between;
+    overflow-x: auto; */
+}
+.galeria-card {
+    background-color: white;
+    border-radius: 20px 20px 20px 0;
+    display: block;
+    width: 90%;
+    margin: 20px 0;
+}
+.galeria-card-img {
+    width: 100%;
+}
+.galeria-card-img img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.galeria-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.galeria-card-info h3 {
+    margin-bottom: 0;
+}
+.galeria-card-info p {
+    color: #8c939c;
+    margin-top: 0;
+}
+.galeria-card-info button {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
+
+
+
 #alianzas {
 
 }
