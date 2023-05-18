@@ -188,18 +188,53 @@ body {
     color: #8c939c;
     margin-top: 0;
 }
-.galeria-card-info button {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    border-radius: 50%;
+.galeria-card-info img:hover {
+    cursor: pointer;
 }
-
-
-
-
-
-
 #alianzas {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#alianzas-galeria {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+#alianzas-galeria div img {
+    width: 100%;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+#alianzas-galeria div img:hover {
+    filter: none;
+    opacity: 1;
+}
+#footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #201b24;
+    color: #8c939c;
+    padding: 60px 30px 40px;
+    font-size: 14px;
+}
+#footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 20px;
+}
+#footer div h3 {
+    margin: 0;
+    text-align: left;
+}
+#footer div h3:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+#footer div p {
+    margin: 0;
+}
+.pad-3-h {
+    padding: 0 3%;
 }
